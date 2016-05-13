@@ -3,9 +3,190 @@ layout: page
 title: Contato
 permalink: /contact/
 ---
+<style type="text/css" media="screen">
+	@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-![Contato via carta, telefone ou e-mail e localidade](https://pixabay.com/static/uploads/photo/2015/10/30/15/07/contact-us-1014232_960_720.png)
+#feedback-page{
+	text-align:center;
+}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada pulvinar molestie. Curabitur in tristique nulla. Quisque tempor, sem et semper fermentum, ex ipsum hendrerit ligula, sed imperdiet ex risus sit amet erat. Cras tincidunt, nibh vitae condimentum auctor, nisl nibh aliquam turpis, id iaculis libero lectus ut purus. Integer sagittis volutpat condimentum. Duis ut maximus augue. Nulla porttitor semper ligula, et finibus magna accumsan nec.
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
 
-Nullam augue neque, porta et tortor eget, consectetur mollis velit. Pellentesque lacus nulla, ultrices at dignissim vitae, consectetur consequat erat. Etiam ac elit odio. Quisque euismod feugiat arcu, vitae vehicula odio auctor quis. Nullam consequat leo et malesuada semper. Donec a aliquam purus, sit amet tincidunt velit. Cras consequat cursus metus sed sagittis. Aliquam eu lectus eu odio tristique rhoncus in eget turpis. Aliquam congue erat ac felis gravida, ut sagittis tellus sollicitudin. Nunc leo mauris, lacinia a ligula viverra, maximus fringilla risus. Phasellus imperdiet nulla nec finibus volutpat. Morbi tempus ipsum odio, nec euismod metus pellentesque ut. Sed ut urna eros. Integer molestie nibh id orci viverra suscipit id non orci.
+#form-div {
+	background-color:rgba(27,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 1px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: rgba(27,72,72,0.4);
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 50%;
+	height: 50px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:50%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+</style>
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit" style="text-align: center !important;">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>

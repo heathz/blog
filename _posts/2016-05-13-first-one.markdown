@@ -5,27 +5,6 @@ date:   2016-05-13 13:20:29 -0300
 categories: jekyll update
 ---
 
-![Imagem da peixe azul do filme "Procurando Nemo"](https://static.cineclick.com.br/sites/adm/uploads/banco_imagens/31/602x0_1439644246.jpg)
+# Follow me!
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-
-Parágrafo:
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada pulvinar molestie. Curabitur in tristique nulla. Quisque tempor, sem et semper fermentum, ex ipsum hendrerit ligula, sed imperdiet ex risus sit amet erat. Cras tincidunt, nibh vitae condimentum auctor, nisl nibh aliquam turpis, id iaculis libero lectus ut purus. Integer sagittis volutpat condimentum. Duis ut maximus augue. Nulla porttitor semper ligula, et finibus magna accumsan nec.
-
-- Lista
-- Não
-- Ordenada
-
-1. Lista
-1. Ordenada
-1. ?
+{% include icon-twitter.html %} &nbsp; {% include icon-face.html %} &nbsp; {% include icon-google.html %}

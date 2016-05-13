@@ -13,6 +13,9 @@ baseurl: "/blog"
 url: "http://timeu.com.br"
 twitter_username: timeuz
 github_username:  heathz
+google_username: 116881261099591656657
+facebook_username: timeu.f.oliveira
+instagram_username: timeuz
 
 # Build settings
 markdown: kramdown

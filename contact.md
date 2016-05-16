@@ -22,6 +22,8 @@ permalink: /contato/
         <label for="observa&ccedil;&otilde;es">Mensagem:</label>
 		<textarea rows="5" cols="3" class="width230" name="msg" id="msg" required></textarea><br />
 		<input type="hidden" name="_next" value="//timeu.com.br/thankyou.html" />
+		<input type="text" name="_format" value="plain" style="display:none" />
+		<input type="hidden" name="_subject" value="Contato do Site" />
 		<input type="submit" value="Enviar" name="enviar" id="enviar_contato" />
 	</fieldset>
 </form>

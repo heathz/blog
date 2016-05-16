@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% comment %}
 {% if site.posts.size == 0 %}
   <h2>Não há nada por aqui ainda!&nbsp;&nbsp; ='(</h2>
 {% else %}
@@ -17,3 +18,11 @@ layout: default
     </div>
   {% endfor %}
 {% endif %}
+{% endcomment %}
+<div style="text-align: center; margin-top: 100px;">
+
+<h1>Follow me!</h1>
+
+<p>&nbsp;</p>
+{% include icon-twitter.html %} &nbsp; {% include icon-face.html %} &nbsp; {% include icon-google.html %}{% include icon-instagram.html %}
+</div>

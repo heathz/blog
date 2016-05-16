@@ -1,11 +1,27 @@
 ---
 layout: page
 title: Contato
-permalink: /contact/
+permalink: /contato/
 ---
+<style type="text/css" media="screen">
+	fieldset{border:0;}
+	form{margin-left:200px;}
+	input, textarea{padding:3px; margin-bottom:5px; border:1px solid #c0c0c0; -moz-border-radius:3px; -webkit-border-radius:3px;}
+	input:focus, textarea:focus{border-color:#999;}
+	label{display:block; font-size:1.2em; margin-top:5px;}
+	textarea{overflow:auto; font:1.2em Arial, Helvetica, sans-serif; color:#333; line-height:1.6em;}
+	.width230{width:230px;}
+</style>
 
-![Contato via carta, telefone ou e-mail e localidade](https://pixabay.com/static/uploads/photo/2015/10/30/15/07/contact-us-1014232_960_720.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada pulvinar molestie. Curabitur in tristique nulla. Quisque tempor, sem et semper fermentum, ex ipsum hendrerit ligula, sed imperdiet ex risus sit amet erat. Cras tincidunt, nibh vitae condimentum auctor, nisl nibh aliquam turpis, id iaculis libero lectus ut purus. Integer sagittis volutpat condimentum. Duis ut maximus augue. Nulla porttitor semper ligula, et finibus magna accumsan nec.
-
-Nullam augue neque, porta et tortor eget, consectetur mollis velit. Pellentesque lacus nulla, ultrices at dignissim vitae, consectetur consequat erat. Etiam ac elit odio. Quisque euismod feugiat arcu, vitae vehicula odio auctor quis. Nullam consequat leo et malesuada semper. Donec a aliquam purus, sit amet tincidunt velit. Cras consequat cursus metus sed sagittis. Aliquam eu lectus eu odio tristique rhoncus in eget turpis. Aliquam congue erat ac felis gravida, ut sagittis tellus sollicitudin. Nunc leo mauris, lacinia a ligula viverra, maximus fringilla risus. Phasellus imperdiet nulla nec finibus volutpat. Morbi tempus ipsum odio, nec euismod metus pellentesque ut. Sed ut urna eros. Integer molestie nibh id orci viverra suscipit id non orci.
+<form action="https://formspree.io/contato@timeu.com.br" id="form-contato">
+	<fieldset>
+		<label for="nome">Nome:</label>
+		<input type="text" class="width230" name="nome" id="nome" required />
+        <label for="email">E-mail:</label>
+		<input type="email" class="width230" name="_replyto" id="email" required />
+        <label for="observa&ccedil;&otilde;es">Mensagem:</label>
+		<textarea rows="5" cols="3" class="width230" name="msg" id="msg" required></textarea><br />
+		<input type="hidden" name="_next" value="//timeu.com.br/blog/thankyou.html" />
+		<input type="submit" value="Enviar" name="enviar" id="enviar_contato" />
+	</fieldset>
+</form>

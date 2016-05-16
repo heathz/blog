@@ -13,7 +13,7 @@ permalink: /contato/
 	.width230{width:230px;}
 </style>
 
-<form action="https://formspree.io/contato@timeu.com.br" id="form-contato">
+<form action="https://formspree.io/contato@timeu.com.br" method="POST" id="form-contato">
 	<fieldset>
 		<label for="nome">Nome:</label>
 		<input type="text" class="width230" name="nome" id="nome" required />
